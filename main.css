@@ -38,7 +38,7 @@
 	border-radius: 15px;
 	padding: 1%;
 	background-color: rgba(255, 242, 223, 0.4);
-;}
+}
 .customSizeButton{
 	height: 150px;
 }
@@ -100,4 +100,80 @@
 .bgtitlesub{
 	background-color: rgba(0, 0, 0, 0.5);
 	color: rgba(0, 0, 0, 0.5);
+}
+
+.divContarSuaHistoria{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
+	text-align: center;
+	display: table;
+	border-radius: 15px;
+	padding: 1%;
+	background-color: rgba(255, 242, 223, 0.4);
+}
+.subtituloDaPaginaHistorias{
+	font-size: 20px;
+	color: white;
+	letter-spacing: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.propriedadesContarHistoria{
+	border-radius: 25px;
+	-webkit-box-shadow: 0px 0px 38px 0px rgba(0,0,0,0.76);
+	box-shadow: 0px 0px 38px 0px rgba(0,0,0,0.76);
+}
+textarea:focus, input:focus, select:focus {
+	outline: 0;
+}
+.passoPassoContarHistoria{
+	float: left;
+	padding: 1%;
+	background-color: rgba(230, 226, 211, 0.4);
+	border-radius: 10px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 2%;
+}
+.propriedadesBasicasTexto{
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+.textoTituloTamanho{
+	font-size: 30px;
+}
+.textoSubtitulosTamanho{
+	font-size: 18px;
+}
+.divButtonEnviarHistoria{
+	margin-top: 1%;
+	text-align: right;
+	float: right;
+}
+.floatButtonRight{
+	float: right;
+}
+.pc50{
+	   width: 50%;
+}
+.hoverTextoBranco:hover{
+	color: white !important;
+}
+.propriedadesBasicasTextoBtn{
+	font-size: 20px;
+	color: WHITE;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: 10px;
 }
