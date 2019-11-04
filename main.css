@@ -1,0 +1,63 @@
+.backgroundIdoso{
+	background-image: url("img/eldery.jpeg"); 
+	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+.tituloDaPagina{
+    font-size: 60px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+	text-align: center;
+}
+.subtituloDaPagina{
+    font-size: 15px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+	text-align: center;
+}
+.orientacaoPosicionamentoTitulo{
+	margin-top: 3%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.divBotoesHistoriasHome{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 15%;
+	text-align: center
+;}
+.customSizeButton{
+	height: 150px;
+}
+.imgLeftButtonHome{
+	width: 30%;
+	float: left;
+}
+.textRightButtonHome{
+	width: 70%;
+	float: right;
+}
+.espacoButtonContarHistoria{
+	float: left;
+	width: 46%;
+	padding: 2%;
+	margin: 2%;
+	border-radius: 10px;
+	background-color: #d64161;
+}
+.espacoButtonLerHistoria{
+	float: left;
+	width: 46%;
+	padding: 2%;
+	margin: 2%;
+	border-radius: 10px;
+	background-color: #034f84;
+}
