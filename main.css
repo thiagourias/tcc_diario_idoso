@@ -170,10 +170,17 @@ textarea:focus, input:focus, select:focus {
 }
 .propriedadesBasicasTextoBtn{
 	font-size: 20px;
-	color: WHITE;
+	color: black;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 100;
+	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
 	margin-left: 10px;
 }
+.footerProperty{
+	margin-top: 5% !important;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
