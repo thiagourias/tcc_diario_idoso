@@ -127,6 +127,14 @@
 	border-radius: 25px;
 	-webkit-box-shadow: 0px 0px 38px 0px rgba(0,0,0,0.76);
 	box-shadow: 0px 0px 38px 0px rgba(0,0,0,0.76);
+	padding: 2%;
+}
+
+.propriedadesComentario{
+	padding: 2%;
+	border-radius: 25px;
+	-webkit-box-shadow: 0px 0px 38px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 38px 0px rgba(0,0,0,0.3);
 }
 textarea:focus, input:focus, select:focus {
 	outline: 0;
@@ -923,4 +931,37 @@ section .section-title {
 .btn-block-custom {
 	display: block;
 	width: 98%;
+}
+.divHistoria{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+	display: table;
+	border-radius: 15px;
+	padding: 1%;
+	background-color: rgba(255, 242, 223, 0.8);
+	margin-top: 5%;
+}
+.divTituloHistoria{
+	margin-top: 1%;
+	margin-bottom: 3%;
+}
+.autorTexto{
+	font-size: 25px;
+}
+
+label{
+	text-align: justify !important;
+	font-size: 18px;
+
+}
+.marginCardCustom{
+	margin: 1%;
+	margin-bottom: 2%;
+}
+.comentarioHistoria{
+	font-size: 12px;
+	color: dodgerblue;
+	font-weight: bold;
 }
