@@ -142,7 +142,7 @@ textarea:focus, input:focus, select:focus {
 .passoPassoContarHistoria{
 	float: left;
 	padding: 1%;
-	background-color: rgba(230, 226, 211, 0.4);
+	background-color: rgba(230, 226, 211, 0.8);
 	border-radius: 10px;
 	width: 80%;
 	margin-left: 10%;
@@ -964,4 +964,42 @@ label{
 	font-size: 12px;
 	color: dodgerblue;
 	font-weight: bold;
+}
+.letraGrande{
+	font-size: 30px !important;
+	text-align: left;
+}
+.paddingPersonalizado{
+	padding: 20px 20px !important;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.btn-extra{
+	color: white !important;
+	background-color: #004085 !important; 
+	height: 80px !important;
+    width: 99% !important;
+    float: left !important;
+    margin-right: 20px;
+}
+.btn-extra:hover{
+	cursor: pointer;
+	background-color: #006185 !important;
 }
